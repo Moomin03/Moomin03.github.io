@@ -1,13 +1,17 @@
 ---
 layout: post
 title: Example Content II
+related_posts:
+  - /docs/fuck
+categories: 
+  - docs
+  - fuck
+date:   2023-08-14 11:00:00 +0900
 description: >
   A page showing how regular markdown content is styled in Hydejack.
 image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 ---
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 There should be whitespace between paragraphs.
 
