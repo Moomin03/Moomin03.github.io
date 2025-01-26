@@ -59,8 +59,8 @@ menu:
   - title:             STUDYLOG
     url:               /studylog/
     submenu:
-      - title:         DL
-        url:           /dl/
+      - title:         DEEPL
+        url:           /deepl/
   - title:             About
     url:               /about/
 

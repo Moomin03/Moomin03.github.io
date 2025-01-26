@@ -1,8 +1,8 @@
 ---
 layout: list
 type: category
-title: DL
-slug: dl
+title: DEEPL
+slug: deepl
 sidebar: true
 order: 2
 description: >
