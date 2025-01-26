@@ -21,7 +21,6 @@ description: >
 
 <aside>
 🔥 역전파, 손실함수, 옵티마이저
-
 </aside>
 
 ## 🧑🏻‍💻 정리 내용
@@ -31,7 +30,7 @@ description: >
 ### ☑️ 어떤 Optimizer를 사용해야하는가?
 
 
-![image1](http://Moomin03.github.io/dl/img/2025-01-25/image.png)
+![image1](http://Moomin03.github.io/deepl/img/2025-01-25/image.png)
 
 
 ### ☑️ Gradient Vanishing은 어떻게 막는가?
@@ -39,7 +38,7 @@ description: >
 <aside>
 ☝🏻
 
-역전파 과정에서 **손실 함수**와 **활성화 함수**는 중요한 역할을 하는데, 여기서 중요한 것은 각 가중치가 오차에 미치는 영향을 알기 위해 **각각에 대해 미분**을 해야 한다는 점입니다. **손실 함수의 미분**은 오차가 얼마나 클지, 즉 예측값과 실제값의 차이에 대해 계산을 진행하고 **활성화 함수의 미분**은 그 결과가 오차에 어떻게 영향을 미쳤는지 계산합니다. 왜냐하면, 활성화 함수는 각 뉴런의 출력값을 결정하기 때문입니다.
+역전파 과정에서 손실 함수와 활성화 함수는 중요한 역할을 하는데, 여기서 중요한 것은 각 가중치가 오차에 미치는 영향을 알기 위해 각각에 대해 미분을 해야 한다는 점입니다. 손실 함수의 미분은 오차가 얼마나 클지, 즉 예측값과 실제값의 차이에 대해 계산을 진행하고 활성화 함수의 미분은 그 결과가 오차에 어떻게 영향을 미쳤는지 계산합니다. 왜냐하면, 활성화 함수는 각 뉴런의 출력값을 결정하기 때문입니다.
 
 먼저 tanh 함수입니다. tanh의 미분값을 보면 0일때 1로 최대값을 가지고, 다른 값들일때는 0과 1 사이의 작은 값들을 가지게 됩니다. 이런 값들이 각 층에서 곱해지면, 아마도 0에 가까워지게되면서 기울기 소실 문제가 발생합니다.
 
@@ -52,7 +51,7 @@ tanh'(x) = 1-\frac{(e^x-e^{-x})^2}{(e^x+e^{-x})^2}
 $$
 </aside>
 
-![image2](http://Moomin03.github.io/dl/img/2025-01-25/tanh.jpg)
+![image2](http://Moomin03.github.io/deepl/img/2025-01-25/tanh.jpg)
 <aside>
 
 다음은 시그모이드 함수입니다. 시그모이드 함수도 tanh 함수와 유사한 문제를 띄죠.
@@ -66,7 +65,7 @@ sigmoid'(x) = \frac{1}{1+e^{-x}}*\frac{e^{-x}}{1+e^{-x}}
 $$
 </aside>
 
-![image3](http://Moomin03.github.io/dl/img/2025-01-25/sigmoid.jpg)
+![image3](http://Moomin03.github.io/deepl/img/2025-01-25/sigmoid.jpg)
 
 <aside>
 따라서 ReLU 함수를 사용하긴 하는데, 양수일때 미분값이 무조건 1을 갖는다는 점은 긍정적이지만, 음수인 값에 대해서는 0을 갖는다는 문제도 여전히 가지고 있기는 합니다.
@@ -86,7 +85,7 @@ ReLU' =  \begin{Bmatrix}
 $$
 </aside>
 
-![image4](http://Moomin03.github.io/dl/img/2025-01-25/relu.jpg)
+![image4](http://Moomin03.github.io/deepl/img/2025-01-25/relu.jpg)
 
 <aside>
 따라서 이런 문제를 해결하기 위해서 LeakyReLU를 사용하거나, 다른 형태의 ReLU함수를 사용하기도 합니다.
