@@ -133,7 +133,7 @@ defaults:
     values:
       accent_color:    rgb(38,139,210)
       theme_color:     rgb(32,32,32)
-      accent_image:    /assets/img/sidebar-bg.jpg
+      accent_image:    center / cover url(/assets/img/sidebar-bg.jpg)
         background:    rgb(32,32,32)
         overlay:       false
 
