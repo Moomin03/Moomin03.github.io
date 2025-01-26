@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Example Content II
-related_posts:
-  - /docs/fuck
+title:  "오퍼레이팅 시스템 [10] - Synchronization"
+date:   2023-08-14 11:00:00 +0900
 categories: 
   - docs
   - fuck
-date:   2023-08-14 11:00:00 +0900
 description: >
-  A page showing how regular markdown content is styled in Hydejack.
-image: /assets/img/blog/example-content-ii.jpg
-sitemap: false
+  'Race condition을 예방하는 동기화기법'
+
 ---
 
 There should be whitespace between paragraphs.
