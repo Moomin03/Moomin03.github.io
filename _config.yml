@@ -37,14 +37,25 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/docs/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Hongseo Jang
+  email:               janghongseo@naver.com
   # # Used by `jekyll-seo-tag`:
+
+  about:
+    Hello, I'm Hongseo Jang, a Researcher who designs artificial intelligence.
+
+    My ultimate goal in coding is creating artificial intelligence that can contribute to the world is admirable<br>
+
+
+
+
+    - 🛠 Tech Stack: Python, Keras, Tensorflow, C++
+    - 📚 Currently Learning: Design Neural Network, Linear Algebra
   # twitter:             <username>
 
 # Add links to the sidebar.
