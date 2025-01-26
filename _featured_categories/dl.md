@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: FUCK
-slug: fuck
+title: DL
+slug: dl
 sidebar: true
 order: 2
 description: >
-  Anything about Development
+  딥러닝에 대해 정리한 내용입니다.
 ---
