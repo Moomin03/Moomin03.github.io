@@ -12,6 +12,6 @@ redirect_from:
 
 <!--author-->
 
-![self](/assets/img/blog/selfimage.jpg){:.lead width="300" height="400" loading="lazy"}
+![self](/assets/img/blog/selfimage.jpg){:.lead width="30" height="40" loading="lazy"}
 
 안녕하세요. 저는 장홍서라고 합니다.
