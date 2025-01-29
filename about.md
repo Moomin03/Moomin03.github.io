@@ -15,3 +15,4 @@ redirect_from:
 ![self](/assets/img/blog/selfimage.jpg){:.lead width="30" height="40" loading="lazy"}
 
 안녕하세요. 저는 장홍서라고 합니다.
+잘부탁드립니다.
