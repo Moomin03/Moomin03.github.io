@@ -2,7 +2,7 @@
 layout: about
 image: /assets/img/blog/selfimage.jpg
 description: >
-  안녕하세요! 저는 장홍서라고 합니다.
+  안녕하세요👋🏻! 저는 장홍서라고 합니다.
 hide_description: true
 redirect_from:
   - /download/
@@ -11,8 +11,4 @@ redirect_from:
 # About
 
 <!--author-->
-
-![self](/assets/img/blog/selfimage.jpg){:.lead width="30" height="40" loading="lazy"}
-
-안녕하세요. 저는 장홍서라고 합니다.
-잘부탁드립니다.
+저의 블로그에 방문해주셔서 감사합니다. 열심히 할게요!
