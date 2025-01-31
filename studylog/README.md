@@ -24,8 +24,6 @@ permalink: /studylog/
 
 
 
-
-
 ## Getting started
 * [Install]{:.heading.flip-title} --- How to install and run Hydejack.
 * [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.

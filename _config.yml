@@ -63,6 +63,8 @@ menu:
         url:           /deepl/
       - title:         MACHINEL
         url:           /machinel/
+      - title:         OPENCV
+        url:           /opencv/
   - title:             EXAMPLE
     url:               /example/
 
