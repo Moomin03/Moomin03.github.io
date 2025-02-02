@@ -13,8 +13,8 @@ permalink: /studylog/
 더 좋은 글을 쓰기 위해, 도움이 되는 글을 쓰려고 노력하겠습니다.
 
 
-다음은 디렉토리 구성입니다.
 ```sh
+다음은 디렉토리 구성입니다.
 ├─STUDYLOG
 │  └─DEEPL
 │  └─MACHINEL
