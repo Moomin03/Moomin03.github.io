@@ -8,7 +8,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    안녕하세요. 블로그 주인 장홍서입니다. 만나서 반가워요!
+    안녕하세요👋🏻 저는 컴퓨터공학부에 재학중인 장홍서라고 합니다.
+    저는 컴퓨터비전과 신경망 설계를 공부하고 있으며 본 블로그는 저의 공부 일지이자, 해당 분야에 처음 접하는 사람들도 쉽게 이해할 수 있도록 풀어서 작성했습니다.
+    구체적인 내용들이 궁금하시다면 아래 링크를 활용해서 연락주시면 감사하겠습니다.
 
   # This photo will be used in the about section
   picture:
