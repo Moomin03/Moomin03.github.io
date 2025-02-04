@@ -59,6 +59,8 @@ menu:
   - title:             STUDYLOG
     url:               /studylog/
     submenu:
+      - title:         MATH
+        url:           /math/
       - title:         DEEPL
         url:           /deepl/
       - title:         MACHINEL
