@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DeepL #신경망학습 - 신경망을 공부할때 어떤게 중요할까요?"
-date:   2025-01-26 11:00:00 +0900
+date:   2025-01-27 11:00:00 +0900
 categories: 
   - studylog
   - deepl
