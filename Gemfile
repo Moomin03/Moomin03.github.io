@@ -53,6 +53,8 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
+  gem "github-pages", "=228"
+  gem "jekyll", "=3.9.3"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
